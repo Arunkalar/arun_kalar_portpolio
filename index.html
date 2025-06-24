@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Arun Kalar - Software Engineer & Backend Developer specializing in PHP development">
+    <meta name="keywords" content="PHP Developer, Backend Developer, Software Engineer, Laravel, MySQL, WordPress">
+    <meta name="author" content="Arun Kalar">
+    <title>Arun Kalar - Software Engineer & Backend Developer</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Arun Kalar</h2>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80"
+                alt="Dark Tech Background" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Arun Kalar</span>
+                    </h1>
+                    <h2 class="hero-subtitle">Software Engineer & Backend Developer</h2>
+                    <p class="hero-description">
+                        I specialize in PHP development with expertise in creating efficient and scalable backend
+                        systems while adhering to best coding practices.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#projects" class="btn btn-secondary">View Projects</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <img src="/assets/arunback-removebg-preview.png" alt="Arun Kalar" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Discover who I am and what drives my passion for development</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <img src="/assets/arunfront.jpg" alt="About Arun Kalar" class="about-img">
+                        <div class="about-image-overlay">
+                            <div class="about-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number">5+</span>
+                                    <span class="stat-label">Months Experience</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">10+</span>
+                                    <span class="stat-label">Projects Completed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3 class="about-heading">Backend Developer & Problem Solver</h3>
+                        <p class="about-description">
+                            I am an adept Backend Developer with expertise in PHP. I have a proven track record of
+                            creating efficient and scalable backend systems while adhering to best coding practices.
+                        </p>
+                        <p class="about-description">
+                            My experience includes developing robust APIs, optimizing database queries, and ensuring
+                            seamless integration with front-end technologies. I am passionate about clean code and
+                            building solutions that deliver exceptional user experiences.
+                        </p>
+                    </div>
+
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Clean Code</h4>
+                                <p>Writing maintainable and efficient code following best practices</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Database Optimization</h4>
+                                <p>Expertise in query optimization and database design</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="highlight-content">
+                                <h4>Scalable Solutions</h4>
+                                <p>Building systems that grow with business needs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-info">
+                        <h4 class="info-title">Personal Information</h4>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <i class="fas fa-user info-icon"></i>
+                                <div class="info-details">
+                                    <span class="info-label">Full Name</span>
+                                    <span class="info-value">Arun Kalar</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-phone info-icon"></i>
+                                <div class="info-details">
+                                    <span class="info-label">Phone</span>
+                                    <span class="info-value">+91-8319846648</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-envelope info-icon"></i>
+                                <div class="info-details">
+                                    <span class="info-label">Email</span>
+                                    <span class="info-value">arunkalar870@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt info-icon"></i>
+                                <div class="info-details">
+                                    <span class="info-label">Location</span>
+                                    <span class="info-value">Indore , India</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-graduation-cap info-icon"></i>
+                                <div class="info-details">
+                                    <span class="info-label">Degree</span>
+                                    <span class="info-value">B.Tech in Computer Science</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-language info-icon"></i>
+                                <div class="info-details">
+                                    <span class="info-label">Languages</span>
+                                    <span class="info-value">English, Hindi</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-actions">
+                        <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+                        <a href="#projects" class="btn btn-secondary">View My Work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Skills</h2>
+                <p class="section-subtitle">I've gained extensive experience with the following technologies and tools
+                    throughout my career.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <h3 class="skill-title">PHP Development</h3>
+                    <p class="skill-description">Expert in PHP with strong focus on developing robust backend systems
+                        and APIs.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="90"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-title">Object-Oriented Programming</h3>
+                    <p class="skill-description">Strong understanding of OOPS principles and design patterns.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-laravel"></i>
+                    </div>
+                    <h3 class="skill-title">Laravel</h3>
+                    <p class="skill-description">Experience with Laravel framework for building efficient web
+                        applications.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-title">MySQL Database</h3>
+                    <p class="skill-description">Proficient in database design, optimization, and query performance.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <h3 class="skill-title">WordPress</h3>
+                    <p class="skill-description">Experience in WordPress development and customization.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="75"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3 class="skill-title">Core Java</h3>
+                    <p class="skill-description">Knowledge of Core Java programming principles and applications.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="70"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="skill-title">HTML/CSS</h3>
+                    <p class="skill-description">Proficient in frontend technologies for building responsive websites.
+                    </p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <h3 class="skill-title">JavaScript</h3>
+                    <p class="skill-description">Experience with JavaScript for interactive web features.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="75"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-bootstrap"></i>
+                    </div>
+                    <h3 class="skill-title">Bootstrap</h3>
+                    <p class="skill-description">Expertise in using Bootstrap framework for responsive design.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-file-excel"></i>
+                    </div>
+                    <h3 class="skill-title">Microsoft Excel</h3>
+                    <p class="skill-description">Skilled in Excel for data analysis, spreadsheets, and formulas.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="70"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-file-word"></i>
+                    </div>
+                    <h3 class="skill-title">Microsoft Word</h3>
+                    <p class="skill-description">Proficient in Word for document creation, formatting, and editing.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="skill-title">AI Tools</h3>
+                    <p class="skill-description">Experience with AI tools like ChatGPT, image recognition, text
+                        generation, and OpenAI API integration.</p>
+                    <div class="skill-progress">
+                        <div class="progress-bar" data-progress="80"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Projects</h2>
+                <p class="section-subtitle">Here are some of the projects I've worked on throughout my career.</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/assets/community worker.jpg"
+                            alt="Community Worker Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://arunkalar.github.io/Community-worker/index.html" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://arunkalar.github.io/Community-worker/index.html" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Community Worker Project</h3>
+                        <p class="project-description">
+                            A platform connecting service providers (plumbers, electricians, carpenters) with clients.
+                            Built with MySQL, PHP, HTML, CSS, JavaScript, and Bootstrap.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/assets/cropped-logo-steves.png"
+                            alt="SteveAILab Website">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://stevesailab.com/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://stevesailab.com/" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SteveAILab Website</h3>
+                        <p class="project-description">
+                            Developed robust PHP applications and WordPress websites using Ajax and jQuery. Built
+                            efficient web solutions using the PHP Laravel framework.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">Ajax</span>
+                            <span class="tech-tag">jQuery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/assets/hotelimage.jpeg"
+                            alt="Jay Giriraj Hotel & Restaurant">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://arunkalar.github.io/JayGirirajHotel/" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://arunkalar.github.io/JayGirirajHotel/" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Jay Giriraj Hotel & Restaurant</h3>
+                        <p class="project-description">
+                            A responsive multi-page hotel and restaurant website including menu, reservation, contact,
+                            gallery, and feedback features. Developed using HTML, CSS, JS, and optionally PHP for
+                            backend.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="job-title">Software Engineer / PHP Developer / Backend Developer Internship</h3>
+                            <span class="job-duration">Mar 2024 - july 2024 (6 Months)</span>
+                        </div>
+                        <div class="job-company">LinuxBean Solutions LLP, Indore</div>
+                        <p class="job-description">
+                            Working as a PHP backend developer and WordPress developer at SteveAILab, Indore. Developing
+                            robust backend systems and web applications.
+                        </p>
+                        <ul class="job-responsibilities">
+                            <li>Developed robust PHP applications and websites using WordPress, Ajax, and jQuery</li>
+                            <li>Utilized PHP Laravel framework to build efficient and scalable web solutions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">B.Tech/B.E. in Computer Science</h3>
+                        <div class="education-school">Gyan Sagar College of Engineering, Sagar</div>
+                        <div class="education-duration">2020 - 2024</div>
+                        <p class="education-description">Full-time program with a focus on computer science and
+                            engineering principles.</p>
+                        <div class="education-grade">CGPA: 8.88/10</div>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Class XII</h3>
+                        <div class="education-school">Madhya Pradesh Board, Hindi Medium</div>
+                        <div class="education-duration">2020</div>
+                        <div class="education-grade">Percentage: 79.4%</div>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3 class="education-degree">Class X</h3>
+                        <div class="education-school">Madhya Pradesh Board, Hindi Medium</div>
+                        <div class="education-duration">2018</div>
+                        <div class="education-grade">Percentage: 80.4%</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="certifications">
+                <h3 class="certifications-title">Certifications</h3>
+                <div class="certifications-grid">
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fab fa-java"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h4 class="certification-name">Core Java Certification</h4>
+                            <p class="certification-description">Completed comprehensive training in Core Java
+                                programming concepts and applications.</p>
+                            <div class="certification-date">Issued: June 2022 (Does not expire)</div>
+                        </div>
+                    </div>
+                    <div class="certification-card">
+                        <div class="certification-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h4 class="certification-name">React Angular & PHP</h4>
+                            <p class="certification-description">Certification in modern web development technologies
+                                including React, Angular, and PHP.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Feel free to contact me for any work or suggestions.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Bengaluru, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>arunkalar870@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 8319846648</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div id="form-message" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Arun Kalar. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/arun-kalar-671352213/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Arunkalar" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
